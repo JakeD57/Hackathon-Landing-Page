@@ -5,21 +5,26 @@
 /*------------------------*/
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 /*----------------------------------- */
 /*STYLING THE LANDING PAGE CONTAINER
 /*-------------------------------------*/
 
 #hackathon-landing-page {
-    min-height: 100vh;
     background: #0D0D0D;
     background-image: url(/Images/background-pattern.svg);
+    min-height: 100vh;
 }
 
 /*---------------- */
@@ -40,9 +45,10 @@ nav.main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    padding-left: 120px;
-    padding-right: 100px;
+    padding: 40px 20px;
+    max-width: 1350px;
+    margin: 0 auto;
+  
 }
 
 .nav-links {
@@ -109,7 +115,8 @@ color: #022311;
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     font-weight: 400;
-    margin-top: -24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
     border-left: 2px solid #ffffff;
     padding-left: 20px;
 }
@@ -189,16 +196,16 @@ section.main-container-1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 40px;
-    padding-left: 120px;
-    padding-right: 20px;
-    gap: 4em;
+    max-width: 1350px;
+    margin: 0 auto;
+    gap: 3em;
+    padding: 0px 20px;
+    margin-top: 80px
 }
 
 .hero-main-img {
     width: 100%;
     max-width: 800px;
-    margin-top: 60px;
 }
 
 .colored-text {
